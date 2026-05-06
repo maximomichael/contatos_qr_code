@@ -1,0 +1,1 @@
+COntatos qr_code
