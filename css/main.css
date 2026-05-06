@@ -1,0 +1,83 @@
+
+#paleta de cores, troque aqui
+:root {
+    --cor-principal: #000080;
+    --brand-light: #e6f4f5;
+    --text-dark: #333;
+    --text-light: #eeeeee;
+    --white: #fff;
+}
+
+html body {
+    background-color: var(--cor-principal);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+.box_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--cor-principal);
+    color: var(--text-light);
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu li {
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+}
+
+.menu li a {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.menu li a:hover {
+    background-color: var(--white);
+    color: var(--cor-principal);
+    border: 2px solid var(--cor-principal);
+}
+
+.fa-brands, .fa-solid {
+    margin-right: 8px;
+}
+
+.foot{
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.foot a{
+    text-decoration: none;
+    color: var(--text-light);
+    background-color: var(--cor-principal);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.foot a:hover{
+    color: var(--cor-principal);
+    background-color: var(--white);
+    border: 2px solid var(--cor-principal);
+}
